@@ -1,0 +1,9 @@
+{
+  "customer_id": {"required": true},
+  "name": {"required": true},
+  "email": {"required": true, "type": "email"},
+  "age": {"type": "number", "min": 18, "max": 100},
+  "country": {"canonical": ["India", "US", "UK"]},
+  "account_balance": {"type": "number", "min": 0},
+  "signup_date": {"type": "date"}
+}
